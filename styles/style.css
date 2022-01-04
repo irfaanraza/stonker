@@ -1,0 +1,85 @@
+@import "~antd/dist/antd.css";
+
+.container {
+      margin: 0 auto;
+      max-width: 1140px;
+}
+.profile {
+      width: 50px;
+      height: 40px;
+      border-radius: 25px;
+}
+.logo {
+      width: 200px;
+      height: 80px;
+      object-fit: fill;
+      border-radius: 20px;
+}
+.horserace-container {
+      background-color: rgb(218, 214, 214);
+      margin-top: 30px;
+}
+.header h2 {
+      font-size: 20px;
+      font-weight: 800;
+      margin-top: 10px;
+      margin-left: 10px;
+}
+.header h5 {
+      margin-left: 10px;
+      margin-top: -10px;
+      margin-bottom: 15px;
+}
+.header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+}
+.header span {
+      font-size: 20px;
+      font-weight: 800;
+      margin-right: 10px;
+}
+
+.race-graphic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 10px;
+      font-weight: bold;
+}
+
+.graphic-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 110px;
+      align-items: center;
+      height: 110px;
+      border-radius: 55px;
+      background-color: grey;
+      /* margin-top: -60px; */
+}
+.input-container {
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+      background-color: white;
+      border-radius: 5px;
+      padding: 10px;
+}
+.input-container input {
+      margin: 10px;
+}
+.btn {
+      margin: 10px;
+      background-color: rgb(87, 84, 84);
+      color: white;
+      border-radius: 5px;
+}
+.horse-component {
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+}
