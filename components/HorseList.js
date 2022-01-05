@@ -1,3 +1,4 @@
+import BetsComponent from "./BetsComponent";
 import HorseComponent from "./HorseComponent";
 
 const HorseList = () => {
@@ -17,6 +18,7 @@ const HorseList = () => {
             "WFC",
             "XOM",
       ];
+
       return (
             <div>
                   {Horses.map((horse) => {

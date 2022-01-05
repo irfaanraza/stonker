@@ -4,12 +4,18 @@ import { Card } from "antd";
 const HorseComponent = (props) => {
       console.log("props are ", props);
       return (
-            <div>
-                  <Card hoverable>
-                        <div className='horse-component'>
-                              <span></span>
+            <div className='card-container'>
+                  <Card hoverable className='card'>
+                        <div className='card-content'>
+                              <div className='horse-component'>
+                                    <span> </span>
+                              </div>
+                              <div className='horse-card-container'>
+                                    <div className='horse-card'>
+                                          {props.horses}
+                                    </div>
+                              </div>
                         </div>
-                        horse={props.horses}
                   </Card>
             </div>
       );

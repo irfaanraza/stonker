@@ -4,6 +4,9 @@
       margin: 0 auto;
       max-width: 1140px;
 }
+.body-container {
+      display: flex;
+}
 .profile {
       width: 50px;
       height: 40px;
@@ -64,16 +67,23 @@
 .input-container {
       display: flex;
       flex-direction: column;
-      margin: 10px;
+      /* margin: 10px; */
       background-color: white;
       border-radius: 5px;
       padding: 10px;
 }
-.input-container input {
-      margin: 10px;
+.input-container Input {
+      padding: 10px;
+      margin: 15px, 10px;
+      outline: 0;
+      border-width: 0 0 2px;
+      border-color: rgb(206, 205, 205);
+}
+.input {
+      margin: 10px 0;
 }
 .btn {
-      margin: 10px;
+      margin: 15px;
       background-color: rgb(87, 84, 84);
       color: white;
       border-radius: 5px;
@@ -82,4 +92,132 @@
       width: 20px;
       height: 20px;
       border-radius: 10px;
+}
+/* .horse-card-container {
+      width: 100px;
+      background-color: green;
+} */
+.card {
+      display: flex;
+      flex-direction: row;
+      width: 70px;
+      height: 70px;
+      margin: 10px;
+      border-radius: 5px;
+
+      text-align: center;
+}
+.card-container {
+      display: inline-block;
+      flex-direction: row;
+}
+.horse-component span {
+      display: flex;
+
+      width: 30px;
+      height: 30px;
+      background-color: rgb(143, 141, 141);
+      padding: 5px;
+      margin-bottom: 8px;
+      border-radius: 15px;
+      color: rgb(143, 141, 141);
+}
+.horse-card {
+      text-align: center;
+      padding: 10px;
+}
+.card-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.bet-card {
+      width: 150px;
+      height: 50px;
+      margin: 10px;
+      border-radius: 5px;
+
+      text-align: center;
+}
+.bet-card-content {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+}
+.bet-component span {
+      display: flex;
+      width: 30px;
+      height: 30px;
+      background-color: rgb(143, 141, 141);
+      /* padding: 5px; */
+      /* margin-bottom: 8px; */
+      border-radius: 15px;
+      color: rgb(71, 68, 68);
+      text-align: center;
+}
+.bets-card-container {
+      display: inline-block;
+      flex-direction: row;
+}
+.bets-card {
+      text-align: center;
+      /* padding: 10px; */
+}
+.ant-card-body .bet-card-content {
+      margin-top: -20px;
+      display: flex;
+      padding: 0px;
+}
+.ant-card-body .card-content {
+      padding: -11px;
+      display: flex;
+      text-align: start;
+}
+.earning {
+      display: flex;
+      justify-content: space-evenly;
+      background-color: white;
+      margin-top: -22px;
+      width: 100%;
+}
+.earning-container {
+      display: flex;
+      justify-content: space-between;
+}
+.earning-container p {
+      margin-right: 10px;
+      background-color: rgb(167, 164, 164);
+      width: 30px;
+      height: 30px;
+}
+.earning-container h4 {
+      margin-right: 20px;
+}
+.btn-container {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+}
+.btnn {
+      width: 100%;
+      justify-content: space-between;
+      margin-right: 20px;
+      border-radius: 5px;
+      border-color: rgb(71, 68, 68);
+}
+.btnn2 {
+      width: 100%;
+      justify-content: space-between;
+      margin-right: 20px;
+      border-radius: 5px;
+
+      background-color: rgb(15, 11, 19);
+      color: white;
+}
+.radio {
+      float: right;
+      display: block;
+      margin-bottom: 30px;
 }
